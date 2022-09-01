@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.navbar__logo--texto {
+    font-size: 18px;
+    color: var(--cinza);
+}
+
+.lista__paginas {
+    display: flex;
+    align-items: center;
+}
+
+.lista__paginas--item {
+    padding: 1em;
+}
+
+.link__item {
+    text-decoration: none;
+    color: var(--cinza-secundario);
+    white-space: nowrap;
+    margin-right: 2rem;
+}
+
+.navbar__botoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+}
+
+.navbar__botao--principal {
+    padding: 1em 1.5em;
+    text-decoration: none;
+    color: var(--cinza-secundario);
+    margin: 0 1em;
+}
+
+.navbar__botao--secundario {
+    background-color: var(--vinho);
+    border-radius: 10px;
+    color: var(--branco);
+}

@@ -1,0 +1,29 @@
+.novos_talentos {
+    text-align: center;
+}
+
+.vagas__abertas {
+    font-size: 14px;
+    color: var(--vinho);
+    background: var(--gradiente);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0.3em;
+}
+
+.novos_talentos__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto);
+    margin: 0.5em auto;
+}
+
+.novos_talentos__texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-secundario);
+}
+
+.novos_talentos--imagem {
+    margin: 2em auto;
+}

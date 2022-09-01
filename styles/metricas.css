@@ -1,0 +1,28 @@
+.metricas__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1em;
+    margin: 8em auto;
+}
+
+.metrica {
+    padding: 0 2em;
+}
+
+.metrica__titulo {
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--vinho);
+}
+
+.metrica__titulo--secundario {
+    font-size: 18px;
+    color: var(--preto);
+    padding: 1em 0 0.6em 0;
+}
+
+.metrica__texto {
+    font-weight: 400;
+    color: var(--cinza-secundario);
+}
